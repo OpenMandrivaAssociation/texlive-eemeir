@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/eemeir
+# catalog-date 2007-02-20 10:49:06 +0100
+# catalog-license lppl
+# catalog-version 1.1b
 Name:		texlive-eemeir
 Version:	1.1b
 Release:	1
@@ -50,6 +56,7 @@ fly.
 #- source
 %doc %{_texmfdistdir}/source/latex/eemeir/eemeir.dtx
 %doc %{_texmfdistdir}/source/latex/eemeir/eemeir.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -60,3 +67,5 @@ fly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
