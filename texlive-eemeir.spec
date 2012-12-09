@@ -56,3 +56,17 @@ fly.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.1b-2
++ Revision: 751328
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.1b-1
++ Revision: 718310
+- texlive-eemeir
+- texlive-eemeir
+- texlive-eemeir
+- texlive-eemeir
+
