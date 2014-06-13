@@ -6,7 +6,7 @@
 # catalog-version 1.1b
 Name:		texlive-eemeir
 Version:	1.1b
-Release:	6
+Release:	7
 Summary:	Adjust the gender of words in a document
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eemeir
