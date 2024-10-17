@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Adjust the gender of words in a document
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/eemeir
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/eemeir
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eemeir.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/eemeir.doc.r%{version}.tar.xz
